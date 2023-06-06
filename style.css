@@ -1,0 +1,232 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap');
+
+@media only screen and (min-width:100px) and (max-width:799px) {
+.container{
+    width: 95%;
+padding-left: 25px;
+}
+.hamburguer{
+    float: right;
+    cursor: pointer;
+    top: 8px;
+position: relative;
+}
+.nav{
+    list-style: none;
+    float: right;
+  padding: 10px;
+  list-style: none;
+float: right;
+padding: 10px;
+
+position: fixed;
+right: -10px;
+top: 0;
+bottom: 0;
+width: 55vw;
+background-color: rgb(255, 255, 255);
+padding: 1.25rem;
+opacity: 1;
+z-index: 99999999999;
+margin: 0;
+}
+.view{
+    display: none;
+}
+.close{
+    right: -143px;
+position: relative;
+
+cursor: pointer;
+}
+button{
+    background-color: rgb(255, 139, 37);
+    height: 35px;
+    border-radius: 10px;
+    width: 80px;
+    font-weight: bold;
+  cursor: pointer;
+}
+button:hover{
+    color: white;
+}
+.close-icon{
+    display: none;
+}
+.nav-menu{
+    display: flex;
+justify-content: space-between;
+}
+li{
+    padding: 10px;
+}
+li:hover{
+    color:  rgb(255, 139, 37) ;
+}
+.grid-container{
+    max-width: 55px;
+    display: grid;
+    margin: 7px
+}
+h1{
+    margin: 5px 0 10px 0;
+    cursor: pointer;
+
+}
+li{
+    cursor: pointer;
+}
+.poster{
+    margin-top: 35px;
+}
+img{
+    max-width: 330px;
+}
+.preview{
+    color: gray;
+}
+.flex{
+    display: flex;
+}
+.avatar-1{
+   max-height: 40px;
+}  
+h5{
+   margin-top: 5px;
+   margin-left: 5px;
+}  
+.charge{
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+footer{
+    margin-top: 35px;
+}
+.p-footer{
+    margin: 0px 10px 0 10px;
+    font-size: 15px;
+    color: gray;
+}
+.logo{
+    margin-left: 10px;
+}
+}
+@media (min-width: 800px) and (max-width: 1780px) {
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+
+width: 95%;
+
+    }
+.logo{
+    cursor: pointer;
+}
+.uno{
+    width: 100%;
+    position: relative;
+    top: 25px;
+    grid-column: span 2;
+}
+   .nav{
+    display: flex;
+ 
+    justify-content: space-between;
+   
+   }
+   .close{
+    display: none;
+   }
+   .container{
+    width: 83%;
+    margin: 20px auto;
+}
+.hamburguer{
+    display: none;
+}
+
+
+
+button{
+    background-color: rgb(255, 139, 37);
+    height: 35px;
+    border-radius: 10px;
+    width: 80px;
+    font-weight: bold;
+  cursor: pointer;
+  border: 0;
+  top: -8px;
+
+position: relative;
+}
+button:hover{
+    color: white;
+}
+.nav{
+    list-style: none;
+}
+.nav-menu{
+    display: flex;
+justify-content: space-between;
+
+
+}
+li{
+    padding: 10px;
+}
+li:hover{
+    color:  rgb(255, 139, 37) ;
+}
+
+h1{
+    margin: 5px 0 10px 0;
+    cursor: pointer;
+
+}
+li{
+    cursor: pointer;
+}
+.poster{
+    margin-top: 35px;
+}
+img{
+    max-width: 330px;
+}
+.preview{
+    color: gray;
+}
+.flex{
+    display: flex;
+}
+.avatar-1{
+   max-height: 40px;
+}  
+h5{
+   margin-top: 5px;
+   margin-left: 5px;
+}  
+.charge{
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+.p-footer{
+    margin: 0px 10px 0 10px;
+    font-size: 15px;
+    color: gray;
+}
+.logo{
+    margin-left: 10px;
+}
+    }
+    
+    
