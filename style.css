@@ -282,7 +282,9 @@ footer{
             margin-top: -20px;
             margin-left: 5px;
         }
-        
+        footer{
+            margin-top: 155px;
+        }
         .p-footer{
             margin: 0px 10px 0 10px;
             font-size: 15px;
@@ -291,7 +293,7 @@ footer{
         .foot{
             display: flex;
 justify-content: space-between;
-margin-right: 85px;
+margin-right: 155px;
         }
         .logo{
             margin-left: 80px;
