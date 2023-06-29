@@ -4,7 +4,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap');
 
-@media only screen and (min-width:100px) and (max-width:768px) {
+@media only screen and (min-width:100px) and (max-width:1080px) {
 .container{
     width: 90%;
     display: flex;
@@ -159,8 +159,10 @@ footer{
 
     
     
+@media only screen and (min-width:768px) and (max-width:1780px) {
 
-    @media only screen and (min-width:768px) and (max-width:1780px) {
+}
+    @media only screen and (min-width:1080px) and (max-width:1780px) {
     
         .grid-container{
                 display: grid;
